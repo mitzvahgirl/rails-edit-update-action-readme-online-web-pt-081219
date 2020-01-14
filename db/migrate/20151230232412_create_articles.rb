@@ -1,6 +1,7 @@
-class CreateArticles < ActiveRecord::Migration
+Learn more or give us feedback
+class CreatePosts < ActiveRecord::Migration
   def change
-    create_table :articles do |t|
+    create_table :posts do |t|
       t.string :title
       t.text :description
 
